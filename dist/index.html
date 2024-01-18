@@ -22,7 +22,10 @@
 </head>
 
 <body>
-
+  const modal = new bootstrap.Modal('#myModal')
+  const dropdown = new bootstrap.Dropdown('[data-bs-toggle="dropdown"]')
+  const offcanvas = bootstrap.Offcanvas.getInstance('#myOffcanvas')
+  const alert = bootstrap.Alert.getOrCreateInstance('#myAlert')
   <!-- Add your site or application content here -->
   <p>Hello world! This is HTML5 Boilerplate.</p>
   <script src="js/app.js"></script>
